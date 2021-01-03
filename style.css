@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #EEE;
+}
+body p,li{
+    font-family: 'roboto',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Roboto',
+   sans-serif;
+   color: black;
+}
+/*----------- header start -----------*/
+/* container style */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(173, 216, 230, 0.507);
+    
+}
+/* container style end */
+.profile-img{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    padding: 30px;
+}
+.header-bio{
+    float: left;
+    padding-top:50px ;
+    font-size: larger;
+    font-weight: 700;
+}
+.contact-info{
+    float: right;
+    padding: 50px;
+}
+.contact-info a{
+    text-decoration: none;
+    color: black;
+    font-family: 'roboto',sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.contact-info a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+/*---------- header section end----------- */
+
+/* clearing div */
+
+.clear-div{
+    clear: both;
+
+}
+
+/*cleaing div  */
+
+/* horizontal role */
+.header-hr{
+    border: solid black;
+    border-width: 100%;
+    border-bottom: none;
+}
+.main-hr{
+    border: 1px solid black;
+    border-width: 100% !important;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* horizontal role */
+
+
+/* section id */
+#personal-info{
+    margin: 20px;
+
+}
+#work-experiance{
+    margin: 20px;
+
+}
+#keyskills-info{
+    margin: 20px;
+
+}
+#education{
+    margin: 20px;
+
+}
+#honors-info{
+    margin: 20px;
+
+}
+#References{
+    margin: 20px;
+
+}
+
+/* main div css */
+.content{
+    
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+h4,h6{
+    color: teal;
+}
+.right-div h4{
+    margin-bottom: 5px;
+}
+.edu-div{
+    width: 30%;
+    
+}
+.edu-div1 h4{
+    margin-bottom: 5px;
+}
+.edu-div1{
+    width: 30%;
+    float: right;
+    
+}
+footer{
+    background-color: black;
+}
